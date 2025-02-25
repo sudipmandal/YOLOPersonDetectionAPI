@@ -1,4 +1,4 @@
-﻿using Compunet.YoloV8;
+﻿using Compunet.YoloSharp;
 using YoloPersonDetectionAPI.Models;
 
 namespace YoloPersonDetectionAPI.Services
@@ -7,7 +7,7 @@ namespace YoloPersonDetectionAPI.Services
     {
         public Task StartAsync(CancellationToken cancellationToken)
         {
-            LocalCache.predictor = new YoloPredictor("Assets/yolov8n-uint8.onnx");
+            LocalCache.predictor = new YoloPredictor("Assets/yolo11n.onnx");
             return Task.CompletedTask;
         }
 

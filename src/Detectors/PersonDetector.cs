@@ -1,4 +1,4 @@
-﻿using Compunet.YoloV8;
+﻿using Compunet.YoloSharp;
 using YoloPersonDetectionAPI.Models;
 
 namespace YoloPersonDetectionAPI.Detectors
