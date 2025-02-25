@@ -10,7 +10,7 @@ A simple REST API to detect if any person is present in an image using the [YOLO
 - The solution needed to be dead simple and capable of analyzing the images locally and not relying on any cloud service
 - The solution needed to work on low end home servers running without any gpus (ideally as a docker container)
 - At the time of this writing, I could not find a readily available option to meet my needs perfectly and hence I decided to write this simple api myself.
-- This api accepts the image as a base64 string and processes it using the YOLOv8 library and returns the count of persons if any in the image
+- This api accepts the image as a base64 string and processes it using the YOLOSharp library and returns the count of persons if any in the image
 - API is fairly fast and using only 2 cores of my Intel n95 cpu and running as docker container it is able to analyze most images (size < 5 MB) in under 2 seconds.
 - I use this api along with [n8n](https://github.com/n8n-io/n8n) and [ntfy](https://github.com/binwiederhier/ntfy) to receive near real time notifications on my PC (and a bunch of other home assistant automations)
 
