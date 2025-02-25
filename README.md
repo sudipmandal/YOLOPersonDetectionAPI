@@ -1,8 +1,8 @@
 ![](https://github.com/sudipmandal/YOLOv8PersonDetectionAPI/actions/workflows/docker-publish.yml/badge.svg)
 ![](https://github.com/sudipmandal/YOLOv8PersonDetectionAPI/actions/workflows/codeql.yml/badge.svg)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-# Person Detection API using YOLOv8
-A simple REST API to detect if any person is present in an image using the [YOLOv8](https://github.com/ultralytics/ultralytics) library
+# Person Detection API using YOLO/Onyx Runtime
+A simple REST API to detect if any person is present in an image using the [YOLO](https://github.com/ultralytics/ultralytics) library
 
 ## Abstract
 - I have a Reolink doorbell camera which is capable of uploading images to a ftp server at periodic intervals
@@ -41,7 +41,7 @@ Content-Type : application/json
 ## Credits
 This api would not be possible without these awesome open source projects
 - [Ultralytics](https://github.com/ultralytics/ultralytics) 
-- [YOLOv8](https://github.com/dme-compunet/YOLOv8) 
+- [YoloSharp](https://github.com/dme-compunet/YoloSharp) 
 - [ONXX Runtime](https://github.com/microsoft/onnxruntime)
 - [Dotnet Core](https://github.com/dotnet/core)
 
