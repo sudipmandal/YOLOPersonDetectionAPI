@@ -2,7 +2,7 @@
 ![](https://github.com/sudipmandal/YOLOv8PersonDetectionAPI/actions/workflows/codeql.yml/badge.svg)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 # Person Detection API using YOLOSharp
-A simple REST API to detect if any person is present in an image using the [YOLO](https://github.com/ultralytics/ultralytics) library
+A simple REST API to detect if any person is present in an image using the [YOLOSharp](https://github.com/dme-compunet/YoloSharp)) library
 
 ## Abstract
 - I have a Reolink doorbell camera which is capable of uploading images to a ftp server at periodic intervals
